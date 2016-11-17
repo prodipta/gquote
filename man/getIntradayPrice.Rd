@@ -5,7 +5,7 @@
 \title{Download intraday data from Google Finance or Yahoo Finance}
 \usage{
 getIntradayPrice(ticker, src = "google", period = 1, interval = 5,
-  tz = NULL, auto.assign = TRUE, time.shift = 0)
+  tz = NULL, auto.assign = FALSE, time.shift = 0)
 }
 \arguments{
 \item{ticker}{ticker for the data to download, include source (exchange)}

@@ -249,7 +249,7 @@ getYahooQuote <- function(ticker,period=1,interval=300,tz=NULL,auto.assign=TRUE)
 #' x <- gquote::getIntradayPrice("INDEXSP:.INX",period=5, interval=5)
 #' tail(x)
 #'@export
-getIntradayPrice<- function(ticker,src='google',period=1,interval=5,tz=NULL, auto.assign=TRUE, time.shift=0){
+getIntradayPrice<- function(ticker,src='google',period=1,interval=5,tz=NULL, auto.assign=FALSE, time.shift=0){
 
   if (src == 'google'){
     x <- getGoogleQuote(ticker,period,interval*60,tz,auto.assign)
