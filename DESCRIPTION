@@ -1,0 +1,15 @@
+Package: gquote
+Type: Package
+Title: Downaload intraday market prices from Google or Yahoo
+Version: 0.1.0
+Author: Prodipta Ghosh <prodiptag@gmail.com>
+Maintainer: Prodipta Ghosh <prodiptag@gmail.com>
+Description: This package allows user to download intraday market prices from Google Finance or Yahoo
+    Finance.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Depends: xts,RCurl
+Imports: zoo
+Suggets: quantmod
+RoxygenNote: 5.0.1
