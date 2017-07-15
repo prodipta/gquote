@@ -4,7 +4,7 @@ The goal of this R package (gquote) is to provide a method to access intraday st
 
 ## Installation
 
-You can install bsoption from github with:
+You can install from github with:
 
 ```R
 # install.packages("devtools")
