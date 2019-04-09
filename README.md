@@ -1,5 +1,7 @@
 # gquote
 
+``NOTE``: Since both Google and Yahoo have severly curtailed their financial data distribution services, this repository is no longer maintained.
+
 The goal of this R package (gquote) is to provide a method to access intraday stock quotes from google or yahoo finance. The frequency and maximum history of data and available tickers depend on the respective data sources. Also note some of them may suspend data access (temporarily) if this function is used many times in quick succession.
 
 ## Installation
